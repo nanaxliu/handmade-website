@@ -63,3 +63,14 @@ h1{
    font-family: "zpix";
    color:rgb(37, 33, 138);
 }
+
+.p2 {
+   font-family: "zpix";
+   color:rgb(216, 153, 237);
+}
+
+.container {
+   height:70vh;
+   display: flex;
+   justify-content: space-evenly;
+}
