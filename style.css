@@ -1,19 +1,65 @@
+@font-face {
+    font-family: 'RedactionReg';
+    src: url(fonts/Redaction50-Regular.otf);
+}
+
+@font-face {
+    font-family: 'RedactionItalic';
+    src: url(fonts/Redaction50-Italic.otf);
+}
+
+@font-face {
+    font-family: 'zpix';
+    src: url(fonts/zpix.ttf);
+}
+
 body{
     background-color:rgb(233, 238, 255);
  }
 
 h1{
-    color:rgb(0, 49, 255);
+    font-size:100px;
+    font-weight: 200;
+    font-family: 'RedactionReg';
+    color:rgb(37, 33, 138);
+    padding: 20px;
+    margin-bottom: 0px;
  }
 
  h2{
-    color:rgb(88, 0, 222);
+    font-size:100px;
+    font-weight: 200;
+    font-family: 'Pinyon Script', cursive;
+    color:rgb(37, 33, 138);
+    margin:0px;
+    padding:0;
  }
 
  h3{
+    font-size:100px;
+    font-weight: 200;
+    font-family: 'RedactionItalic';
     color:rgb(216, 153, 237);
+    margin:0;
+    padding:0;
  }
 
  h4{
-    color:rgb(169, 186, 245);
+    font-size:100px;
+    font-weight: 200;
+    font-family: "zpix";
+    color:rgb(37, 33, 138);
+    margin:0;
+    padding:0;
  }
+
+
+.hlink {
+   color:rgb(37, 33, 138);
+    text-decoration:none;
+  }
+
+.p1 {
+   font-family: "zpix";
+   color:rgb(37, 33, 138);
+}
